@@ -1,10 +1,4 @@
 <template>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-  </head>
-  <body>
     <div class="ai">
       <main class="ai-inner">
         <section class="frame-parent">
@@ -1728,17 +1722,16 @@
         </section>
       </main>
     </div>
-  </body>
-</html>
-
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router';
 
+const router = useRouter();
 </script>
 
 <style>
-@import "@/assets/css/Profile/AIrecommended/Card/global.css";
-@import "@/assets/css/Profile/AIrecommended/Card/Card.css";
+@import "@/assets/css/Profile/AIrecommended/List/global.css";
+@import "@/assets/css/Profile/AIrecommended/List/List.css";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 </style>

@@ -1,13 +1,16 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
-import Login from "@/components/MainPage/Login/LogIn.vue";
+import LogIn from "@/components/MainPage/LogIn/LogIn.vue";
 import SignUp from "@/components/MainPage/SighUp/SignUp.vue";
 import BeforeLogInMain from "@/components/MainPage/BeforeLogInMain/BeforeLogInMain.vue";
+import Card from "@/components/Profile/AIrecommended/Card/Card.vue";
+import List from "@/components/Profile/AIrecommended/List/List.vue";
+
 
 const routes = [
     {   // 로그인
         path: '/login',
-        component: Login
+        component: LogIn
     },
     {   // 회원가입
         path: '/signup',
@@ -16,6 +19,14 @@ const routes = [
     {   // 비회원 메인
         path: '/',
         component: BeforeLogInMain
+    },
+    {
+        path: '/card',
+        component: Card
+    },
+    {
+        path: '/list',
+        component: List
     }
 ];
 
