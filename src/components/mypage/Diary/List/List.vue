@@ -2,53 +2,73 @@
   <div class="page-container">
       <div class="a-group">
 
-        <a href="" class="button btnPush btnAll"><img class="btn-img" src="@/assets/icon/Profile/AIrecommended/List/whole.png"></a>
-        <a href="" class="button btnPush btnMusic"><img class="btn-img" src="@/assets/icon/Profile/AIrecommended/List/music.png"></a>
-        <a href="" class="button btnPush btnMovie"><img class="btn-img" src="@/assets/icon/Profile/AIrecommended/List/movie.png"></a>
-        <a href="" class="button btnPush btnFood"><img class="btn-img" src="@/assets/icon/Profile/AIrecommended/List/food.png"></a>
+        <a class="button btnPush btnAll"><img class="btn-img" src="@/assets/icon/Profile/AIrecommended/List/whole.png"></a>
+        <a class="button btnPush btnMusic"><img class="btn-img" src="@/assets/icon/Profile/AIrecommended/List/music.png"></a>
+        <a class="button btnPush btnMovie"><img class="btn-img" src="@/assets/icon/Profile/AIrecommended/List/movie.png"></a>
+        <a class="button btnPush btnFood"><img class="btn-img" src="@/assets/icon/Profile/AIrecommended/List/food.png"></a>
         <div class="clear"></div>
       </div>
     <section class="content-container">
       <div class="card-container">
-        <div class="card" @click="changeRouter('/view')">
+        <div class="card" >
           <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/sun.png"/>
           <p>2024.04.18</p>
           <p class="card-title">점수</p>
-          <p class="summary">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
-          <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
-          </p>
+          <p class="summary" @click="changeRouter('/view')">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
+          <div class="content-group">
+            <p class="p-content"><img src="@/assets/icon/Profile/AIrecommended/Card/music.png">밤양갱aaaaaaaaaaaaaaaaaaaa</p>
+            <p class="p-content"><img src="@/assets/icon/Profile/AIrecommended/Card/movie.png">토이스토리aaaaaaaaaaaaaaaaaa</p>
+            <p class="p-content"><img src="@/assets/icon/Profile/AIrecommended/Card/food.png">미역국aaaaaaaaaaaaaaaaaa</p>
+          </div>
+          <img src="@/assets/icon/Profile/AIrecommended/List/heart.png" alt="Like Button" class="heart">
         </div>
-        <div class="card" @click="changeRouter('/view')">
+        <div class="card">
           <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/cloudy.png"/>
           <p>2024.04.18</p>
           <p class="card-title">점수</p>
-          <p class="summary">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
-          <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
-          </p>
+          <p class="summary" @click="changeRouter('/view')">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
+          <div class="content-group">
+            <p class="p-content"><img src="@/assets/icon/Profile/AIrecommended/Card/music.png">밤양갱</p>
+            <p class="p-content"><img src="@/assets/icon/Profile/AIrecommended/Card/movie.png">토이스토리</p>
+            <p class="p-content"><img src="@/assets/icon/Profile/AIrecommended/Card/food.png">미역국</p>
+          </div>
+          <img src="@/assets/icon/Profile/AIrecommended/List/heart.png" alt="Like Button" class="heart">
         </div>
-        <div class="card" @click="changeRouter('/view')">
+        <div class="card">
           <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/thunder.png"/>
           <p>2024.04.18</p>
           <p class="card-title">점수</p>
-          <p class="summary">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
-          <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
-          </p>
+          <p class="summary" @click="changeRouter('/view')">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
+          <div class="content-group">
+            <p class="p-content"><img src="@/assets/icon/Profile/AIrecommended/Card/music.png">밤양갱</p>
+            <p class="p-content"><img src="@/assets/icon/Profile/AIrecommended/Card/movie.png">토이스토리</p>
+            <p class="p-content"><img src="@/assets/icon/Profile/AIrecommended/Card/food.png">미역국</p>
+          </div>
+          <img src="@/assets/icon/Profile/AIrecommended/List/heart.png" alt="Like Button" class="heart">
         </div>
-        <div class="card" @click="changeRouter('/view')">
+        <div class="card">
           <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/sun.png"/>
           <p>2024.04.18</p>
           <p class="card-title">점수</p>
-          <p class="summary">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
-          <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
-          </p>
+          <p class="summary"  @click="changeRouter('/view')">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
+          <div class="content-group">
+            <p class="p-content"><img src="@/assets/icon/Profile/AIrecommended/Card/music.png">밤양갱</p>
+            <p class="p-content"><img src="@/assets/icon/Profile/AIrecommended/Card/movie.png">토이스토리</p>
+            <p class="p-content"><img src="@/assets/icon/Profile/AIrecommended/Card/food.png">미역국</p>
+          </div>
+          <img src="@/assets/icon/Profile/AIrecommended/List/heart.png" alt="Like Button" class="heart">
         </div>
-        <div class="card" @click="changeRouter('/view')">
+        <div class="card">
           <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/cloudy.png"/>
           <p>2024.04.18</p>
           <p class="card-title">점수</p>
-          <p class="summary">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
-          <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
-          </p>
+          <p class="summary" @click="changeRouter('/view')">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
+          <div class="content-group">
+            <p class="p-content"><img src="@/assets/icon/Profile/AIrecommended/Card/music.png">밤양갱</p>
+            <p class="p-content"><img src="@/assets/icon/Profile/AIrecommended/Card/movie.png">토이스토리</p>
+            <p class="p-content"><img src="@/assets/icon/Profile/AIrecommended/Card/food.png">미역국</p>
+          </div>
+          <img src="@/assets/icon/Profile/AIrecommended/List/heart.png" alt="Like Button" class="heart">
         </div>
       </div>
     </section>
@@ -96,6 +116,7 @@ a.button {
 .btnAll:active {
   background-color: #FFD930;
 }
+
 .btnMusic:active {
   background-color: #FFD930;
 }
@@ -159,12 +180,12 @@ a.button {
   -webkit-line-clamp: 1;
   overflow: hidden;
 }
-.card-content {
+.p-content {
   width: 180px;
-  height: 84px;
+  height: 21px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 1;
   overflow: hidden;
 }
 .content-container {
@@ -174,7 +195,13 @@ a.button {
   display: inline-block;
   outline: none;
 }
-
+.content-group {
+  text-align: left;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
 .card-container {
   display: flex;
   justify-content: center;
@@ -201,6 +228,7 @@ a.button {
   width: 900px;
   height: 350px;
   flex: 1;
+  gap: 20px;
 }
 
 .card:hover {
@@ -208,9 +236,8 @@ a.button {
 }
 
 .icon {
-  width: 64px; /* Adjusted icon size */
+  width: 120px; /* Adjusted icon size */
   height: auto;
-  margin-bottom: 1rem;
 }
 
 .card-title {
