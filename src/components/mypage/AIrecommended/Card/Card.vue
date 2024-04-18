@@ -24,9 +24,17 @@
           <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
           </p>
         </div>
-        <div class="card" @click="changeRouter('/view')">
+        <div class="card" @click="changeRouter('/view')" style="box-shadow: 0 0 5px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231">
           <p>2024.04.18</p>
-          <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/sun.png"/>
+          <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/cloudy.png"/>
+          <p class="card-title">점수</p>
+          <p class="summary">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
+          <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
+          </p>
+        </div>
+        <div class="card" @click="changeRouter('/view')" style="box-shadow: 0 0 5px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF">
+          <p>2024.04.18</p>
+          <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/thunder.png"/>
           <p class="card-title">점수</p>
           <p class="summary">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
           <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
@@ -40,9 +48,17 @@
           <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
           </p>
         </div>
-        <div class="card" @click="changeRouter('/view')">
+        <div class="card" @click="changeRouter('/view')" style="box-shadow: 0 0 5px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231">
           <p>2024.04.18</p>
-          <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/sun.png"/>
+          <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/cloudy.png"/>
+          <p class="card-title">점수</p>
+          <p class="summary">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
+          <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
+          </p>
+        </div>
+        <div class="card" @click="changeRouter('/view')" style="box-shadow: 0 0 5px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF">
+          <p>2024.04.18</p>
+          <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/thunder.png"/>
           <p class="card-title">점수</p>
           <p class="summary">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
           <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
@@ -56,9 +72,17 @@
           <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
           </p>
         </div>
-        <div class="card" @click="changeRouter('/view')">
+        <div class="card" @click="changeRouter('/view')" style="box-shadow: 0 0 5px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231">
           <p>2024.04.18</p>
-          <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/sun.png"/>
+          <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/cloudy.png"/>
+          <p class="card-title">점수</p>
+          <p class="summary">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
+          <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
+          </p>
+        </div>
+        <div class="card" @click="changeRouter('/view')" style="box-shadow: 0 0 5px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF">
+          <p>2024.04.18</p>
+          <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/thunder.png"/>
           <p class="card-title">점수</p>
           <p class="summary">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
           <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
@@ -72,25 +96,17 @@
           <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
           </p>
         </div>
-        <div class="card" @click="changeRouter('/view')">
+        <div class="card" @click="changeRouter('/view')" style="box-shadow: 0 0 5px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231, 0 0 10px #FD5231">
           <p>2024.04.18</p>
-          <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/sun.png"/>
+          <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/cloudy.png"/>
           <p class="card-title">점수</p>
           <p class="summary">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
           <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
           </p>
         </div>
-        <div class="card" @click="changeRouter('/view')">
+        <div class="card" @click="changeRouter('/view')" style="box-shadow: 0 0 5px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF, 0 0 10px #5C6FBF">
           <p>2024.04.18</p>
-          <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/sun.png"/>
-          <p class="card-title">점수</p>
-          <p class="summary">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
-          <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
-          </p>
-        </div>
-        <div class="card" @click="changeRouter('/view')">
-          <p>2024.04.18</p>
-          <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/sun.png"/>
+          <img class="icon" alt="감정 점수 아이콘" src="@/assets/icon/Profile/AIrecommended/Card/thunder.png"/>
           <p class="card-title">점수</p>
           <p class="summary">한 줄 요약내용입니다.한 줄 요약내용입니다.</p>
           <p class="card-content">이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.이 왼쪽눈이 전쟁을 원하고 있다.
@@ -128,19 +144,25 @@
   overflow: hidden;
 }
 .del {
-  width: 130px;
+  width: 100px;
   height: 40px;
   position: absolute;
-  right: 420px;
+  right: 415px;
   border:none;
   border-radius: 5px;
-  font-weight: 1000;
+  font-weight: bold;
   text-align: center;
   color: #000000;
   background-color: #D9D9D9;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+}
+.del:hover {
+  background: #9E9B9B;
 }
 .content-container {
-  max-width: 1080px;
+  max-width: 1440px;
   width: 100%;
   text-align: center;
   display: inline-block;
@@ -238,7 +260,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 40px;
   margin: 3rem 0;
 }
 
@@ -252,7 +274,7 @@
   box-sizing: border-box;
   border-radius: 20px; /* Adjusted to match the design */
   background: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px #FFD930, 0 0 10px #FFD930, 0 0 10px #FFD930, 0 0 10px #FFD930, 0 0 10px #FFD930, 0 0 10px #FFD930, 0 0 10px #FFD930;
   transition: transform 0.3s ease;
   cursor: pointer;
   width: 200px;
