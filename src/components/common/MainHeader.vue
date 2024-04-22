@@ -1,10 +1,9 @@
 <template>
   <header class="line-parent">
-    <!-- Weather Information -->
-<!--    <div class="weather-container">-->
-<!--      <img :src="'https://openweathermap.org/img/wn/' + weatherInfo.icon + '.png'" alt="Weather Icon" class="weather-icon"/>-->
-<!--      <span class="temperature">{{ weatherInfo.temperature }}°C</span>-->
-<!--    </div>-->
+    <div class="weather-container">
+      <img :src="'https://openweathermap.org/img/wn/' + weatherInfo.icon + '.png'" alt="Weather Icon" class="weather-icon"/>
+      <span class="temperature">{{ weatherInfo.temperature }}°C</span>
+    </div>
 
 
     <!-- Main Logo -->
@@ -33,36 +32,36 @@ const weatherInfo = ref({
   icon: null
 });
 let count = 0;
-// const fetchWeather = async () => {
-//   count++;
-//   const city = 'Seoul';
-//   const apiKey = 'aa237cabd8bd6dd1e5374da90756d5b5';
-//   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-//
-//   try {
-//     const response = await fetch(url);
-//     if (!response.ok) {
-//       throw new Error('Failed to fetch weather data');
-//     }
-//     const data = await response.json();
-//     if(count === 1) {
-//       weatherInfo.value = {
-//         temperature: data.main.temp,
-//         icon: data.weather[0].icon
-//       };
-//     }
-//   } catch (error) {
-//     console.error('Failed to fetch weather data:', error);
-//     weatherInfo.value = {
-//       temperature: 'N/A',
-//       icon: null
-//     };
-//   }
-// };
-//
-// onMounted(() => {
-//   fetchWeather();
-// });
+const fetchWeather = async () => {
+  count++;
+  const city = 'Seoul';
+  const apiKey = 'aa237cabd8bd6dd1e5374da90756d5b5';
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error('Failed to fetch weather data');
+    }
+    const data = await response.json();
+    if(count === 1) {
+      weatherInfo.value = {
+        temperature: data.main.temp,
+        icon: data.weather[0].icon
+      };
+    }
+  } catch (error) {
+    console.error('Failed to fetch weather data:', error);
+    weatherInfo.value = {
+      temperature: 'N/A',
+      icon: null
+    };
+  }
+};
+
+onMounted(() => {
+  fetchWeather();
+});
 
 const changeRouter = (route) => {
   router.push(route);

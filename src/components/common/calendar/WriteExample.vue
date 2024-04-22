@@ -10,7 +10,6 @@
     <textarea style="height: 450px;" id="editContent" v-model="editedFeed.content"></textarea>
   </div>
   <div>
-
     <form @submit.prevent="uploadImage">
       <input type="file" @change="previewImage" /> <!-- @change 이벤트를 사용하여 파일 선택 시 previewImage 메서드 호출 -->
       <img :src="imagePreview"/> <!-- 이미지 미리보기 -->
