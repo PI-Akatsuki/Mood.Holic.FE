@@ -473,7 +473,7 @@ const router = useRouter();
 </script>
 
 <style>
-@import "src/assets/css/Profile/AIrecommended/List/global.css";
-@import "src/assets/css/Profile/AIrecommended/List/List.css";
+@import "src/assets/css/Profile/AIrecommended/Card/global.css";
+@import "src/assets/css/Profile/AIrecommended/Card/Card.css";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 </style>

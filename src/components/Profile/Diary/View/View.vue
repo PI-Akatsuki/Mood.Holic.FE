@@ -17,7 +17,6 @@
 
           </div>
           <div class="div2">뒤로가기</div>
-        </button>
         <div class="rectangle-group">
           <div class="frame-inner"></div>
           <div class="frame-wrapper">
